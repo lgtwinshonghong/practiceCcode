@@ -1,15 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int find_ori_item(){
+
+    return 0;
+}
+
 int main(){
    
-    int item =2 , value=3;
+    int item , value;
     printf("Enter the total items number :");
-    //scanf("%d",&item);
-     printf("\n");
+    scanf("%d",&item);
+    printf("\n");
+
     printf("Enter the hitght weight :");
-    //scnaf("%d",&value);
-     printf("\n");
+    scanf("%d",&value);
+    printf("\n");
     
     printf("Total item %d and the hight weight is %d ",item,value);
     
