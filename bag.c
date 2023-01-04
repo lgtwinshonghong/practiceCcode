@@ -10,5 +10,6 @@ int main(){
     scnaf("%d",&value);
     
     printf("Total item %d and the hight weight is %d ",item,value);
+    
     return 0;
 }
